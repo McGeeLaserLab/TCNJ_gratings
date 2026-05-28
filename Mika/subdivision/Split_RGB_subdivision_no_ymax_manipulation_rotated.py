@@ -12,9 +12,9 @@ class PatternGeneration:
         load the image, and start the pixel processing and CSV creation.
         """
         # Set the file path and image filename
-        self.filepath_output = os.getcwd()
-        self.filepath_input = os.getcwd()
-        filename_image = "/home/anghofus/PycharmProjects/TCNJ_gratings/Mika/color chart/color_chart.png"
+        self.filepath_output = "C:/Users/mcgeelab/Desktop/SLMImages/"
+        self.filepath_input = "C:/Users/mcgeelab/Desktop/PreparedImages/"
+        filename_image = "warhol_thorlabs_dog_5px_test.png"
 
         # Define dimensions for subpixels and SLM (spatial light modulator)
         self.subpixel_width = 640
